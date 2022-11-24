@@ -2,6 +2,8 @@
 
 #####################Pré-requis################################################
 
+- Premièrement, il est important de venir télécharger le dossier complet. Pour cela il faut venir cliquer sur le bouton code en vers sur Github puis "download ZIP".
+- Une fois que cela est fait, vous dézipez le fichier et récupérait le dossier RIOC, pour pouvoir l'importer en tant que nouveau projet sur éclipse.
 - Version de Eclipse : 2022-09 (4.25.0)
 - Version de MySQL Worbench : 8.0.31
 - Version de MySQL : 8.0.31
@@ -22,10 +24,21 @@
 - Une fois dans l'instance, créé une base de données avec pour nom "test".
 - Une fois que la base de données est créée, tout est bon du côté de workbench.
 
+#####################Clean Install et Skip test################################
+
+- Afin de pouvoir lancer le code, il est très important qu'après avoir effectué les actions précédentes, et importer le dossier rioc sur éclipse,
+- Il faut faire un clic droit sur le dossier situé dans la barre gauche d'éclipse afin de venir cliquer sur "run as"
+- Puis cliquer sur "Maven build ...".
+- Ensuite une fenêtre va s'ouvrir,
+- Dans celle-ci, il faut :
+	- Tapper "clean install" dans la section goals
+	- Et venir cocher la case "Skip test".
+- Une fois que tout cela est fait, il devrait désormais être possible de lancer le code en faisant "run as" puis "spring boot app"
+
 #####################Etape pour accéder au swagger#############################
 
 - Pour accéder au swagger, il vous faut désormais lancer le code.
-- Une fois que celui-ci est démarré, rendez-vous à l'url : http://localhost:8080/swagger-ui/index.html#/
+- Une fois que celui-ci est démarré, rendez-vous à l'url : http://localhost:8080/swagger-ui/index.html
 - Voilà, vous pouvez désormais utiliser les différentes fonctions que nous avons pu mettre en place.
 
 #####################Point d'arrêt#############################################
