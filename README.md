@@ -21,7 +21,7 @@
 
 - Pour lancer le code, il faut tout d'abord exécuter MySQL Workbench et Shell.
 - Ensuite, sur Workbench, après que vous ayez créé l'instance avec les informations fournis plus haut, ouvrer l'instance en cliquant dessus et en rentrant le mot de passe.
-- Une fois dans l'instance, créé une base de données avec pour nom "test".
+- Une fois dans l'instance, créer une base de données avec pour nom "test".
 - Une fois que la base de données est créée, tout est bon du côté de workbench.
 
 #####################Clean Install et Skip test################################
