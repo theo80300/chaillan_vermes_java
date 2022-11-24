@@ -32,7 +32,7 @@
 - Ensuite une fenêtre va s'ouvrir,
 - Dans celle-ci, il faut :
 	- Tapper "clean install" dans la section goals
-	- Et venir cocher la case "Skip test".
+	- Et venir cocher la case "Skip tests".
 - Une fois que tout cela est fait, il devrait désormais être possible de lancer le code en faisant "run as" puis "spring boot app"
 
 #####################Etape pour accéder au swagger#############################
